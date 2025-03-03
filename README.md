@@ -15,18 +15,22 @@ A basic shell implementation in C, supporting several built-in commands and exec
 
 ## Installation
 
-1. **Prerequisites**: Ensure `gcc` is installed.
+1. **Prerequisites**: 
+   - Ensure `gcc` is installed.
+
 2. **Compilation**:
    ```bash
    git clone https://github.com/zxasc/shell-c shell-c
    cd shell-c
    gcc src/main.c -o shell-c
    ```
+   
 3. **Run**
     ```bash
     ./shell.c
     ```
-   - Example commands
+
+- Example commands
    ```bash
    $ echo Hello World
    $ type echo      # Output: "echo is a shell builtin"

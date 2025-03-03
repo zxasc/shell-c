@@ -31,6 +31,7 @@ A basic shell implementation in C, supporting several built-in commands and exec
     ```
 
 - Example commands
+
    ```bash
    $ echo Hello World
    $ type echo      # Output: "echo is a shell builtin"
